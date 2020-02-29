@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './collection-item.styles.scss';
-import CollectionPreview from '../preview-collection/collection-preview.component';
+//import CollectionPreview from '../preview-collection/collection-preview.component';
 
 const CollectionItem = ({ id, name, price, imageUrl }) => (
     <div className='collection-item'>
@@ -9,7 +9,7 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
             className='image'
             style={{
                 backgroundImage: `url(${imageUrl})`
-            }}
+            }} 
         />
         <div className='collection-footer'>
             <span className='name'>{name}</span>
